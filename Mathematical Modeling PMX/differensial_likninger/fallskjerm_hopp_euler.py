@@ -30,7 +30,6 @@ while h > 0: # vi kjører denne mens fallskjermshopperen er over bakken; etter d
 # Skriving ut av resultater
 print(f'Det tar ca. {t:.2f} sekunder før du treffer bakken med en fart på ca. {v:.2f} m/s.') # se på hvordan en streng bør formateres!
 
-# Plotting. Her er det egentlig ingenting dere burde vite, jeg prøvde bare å få det til å likne på Rune sin løsning. Bare se på dokumentasjonen til pyplot hvis dere vil vite hvordan alt dette funker.
 fig, ax1 = plt.subplots()
 ax1.set_title(f'Masse = {m} kg')
 farge = 'tab:blue'
